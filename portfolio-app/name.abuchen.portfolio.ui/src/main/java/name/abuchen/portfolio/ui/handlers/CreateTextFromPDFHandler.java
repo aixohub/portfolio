@@ -1,5 +1,5 @@
 package name.abuchen.portfolio.ui.handlers;
-
+import org.eclipse.core.runtime.ILog;
 import java.io.File;
 import java.io.IOException;
 import java.util.Random;

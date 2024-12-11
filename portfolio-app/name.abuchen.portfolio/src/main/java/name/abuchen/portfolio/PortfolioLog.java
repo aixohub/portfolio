@@ -1,4 +1,4 @@
-package name.abuchen.portfolio;
+ package name.abuchen.portfolio;
 
 import java.util.List;
 

@@ -13,6 +13,69 @@
 	<artifactId>name.abuchen.portfolio.bootstrap</artifactId>
 	<packaging>eclipse-plugin</packaging>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipse.platform</groupId>
+			<artifactId>org.eclipse.swt</artifactId>
+			<version>3.128.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.platform</groupId>
+			<artifactId>org.eclipse.swt.cocoa.macosx.aarch64</artifactId>
+			<version>3.128.0</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.eclipse.platform</groupId>
+			<artifactId>org.eclipse.e4.core.di</artifactId>
+			<version>1.9.400</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.platform</groupId>
+			<artifactId>org.eclipse.e4.ui.services</artifactId>
+			<version>1.6.400</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.platform</groupId>
+			<artifactId>org.eclipse.e4.core.di.annotations</artifactId>
+			<version>1.8.400</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.platform</groupId>
+			<artifactId>org.eclipse.e4.core.di.extensions</artifactId>
+			<version>0.18.300</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.platform</groupId>
+			<artifactId>org.eclipse.jface</artifactId>
+			<version>3.35.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.platform</groupId>
+			<artifactId>org.eclipse.e4.core.contexts</artifactId>
+			<version>1.13.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.platform</groupId>
+			<artifactId>org.eclipse.e4.ui.model.workbench</artifactId>
+			<version>2.4.300</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.platform</groupId>
+			<artifactId>org.eclipse.e4.core.commands</artifactId>
+			<version>1.1.400</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.platform</groupId>
+			<artifactId>org.eclipse.e4.ui.workbench</artifactId>
+			<version>1.16.0</version>
+		</dependency>
+
+
+	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>

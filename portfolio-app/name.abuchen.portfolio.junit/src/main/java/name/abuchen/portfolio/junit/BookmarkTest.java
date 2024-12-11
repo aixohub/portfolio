@@ -1,6 +1,6 @@
 package name.abuchen.portfolio.junit;
 
-import static org.hamcrest.core.IsEqual.equalTo;
+import static org.hamcrest.core.IsEqual.IsEqual;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 import java.util.UUID;
