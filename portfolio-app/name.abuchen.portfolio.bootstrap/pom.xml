@@ -73,6 +73,13 @@
 			<version>1.16.0</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.eclipse.platform</groupId>
+			<artifactId>org.eclipse.e4.ui.workbench.renderers.swt</artifactId>
+			<version>0.16.600</version>
+		</dependency>
+
+
 
 	</dependencies>
 
